@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VPNetworkManager_Example' do
+  pod 'VPNetworkManager', :path => '../'
+
+  target 'VPNetworkManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
