@@ -1,0 +1,16 @@
+PODS:
+  - VPNetworkManager (0.1.0)
+
+DEPENDENCIES:
+  - VPNetworkManager (from `../`)
+
+EXTERNAL SOURCES:
+  VPNetworkManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VPNetworkManager: e3058a56d429c824facf249b4c3c587539645809
+
+PODFILE CHECKSUM: 3e733edfe3c51721409d935522f59b2c4bce9ded
+
+COCOAPODS: 1.5.3

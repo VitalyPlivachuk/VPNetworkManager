@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2974A0A438B1DF6D3FDB3EEA79A08BBF /* VPNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7937190D7866F40D47F339E4EB1C37 /* VPNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34636F0A47AFDD06A660FD25908211CC /* Pods-VPNetworkManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 396C43A51EDD55E42EDF792F83C23C69 /* Pods-VPNetworkManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E6268621669694BAF41A1A78D7D463 /* Pods-VPNetworkManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AAC2607C46798DA9E6EF57BFDA754C /* Pods-VPNetworkManager_Tests-dummy.m */; };
+		440C584F18333B43A99D65F04BEE8E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		483C9099AB632C74102E74F5D418507E /* VPNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92661E4EED8C56CD5C260A8D0A4A87C4 /* VPNetworkManager-dummy.m */; };
+		69853EFF3722F23A504F51181986E201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		842E9BCE220880DE00494480 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BCB220880DD00494480 /* NetworkService.swift */; };
+		842E9BCF220880DE00494480 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BCC220880DE00494480 /* DownloadService.swift */; };
+		842E9BD0220880DE00494480 /* SynchronizedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BCD220880DE00494480 /* SynchronizedArray.swift */; };
+		9ABFA5F13835076D9073C51A0287852D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B6B332774D8EE4623609241EEB87EBFF /* Pods-VPNetworkManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A7D1C070E10834CB5DD8898705D326 /* Pods-VPNetworkManager_Example-dummy.m */; };
+		C8DB104AD616A2C85111AF1A34AB0B29 /* Pods-VPNetworkManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9979BF39A97536F723A6ADC2400083ED /* Pods-VPNetworkManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		616612F49873E9470AD2AA063DE1ED0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BFB43C9F1660A9F23953339840CA17;
+			remoteInfo = VPNetworkManager;
+		};
+		E8ED09D8BF965E32A3CAD7B0CAB81D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11AF6DE0384C23905204E47F1F31E0F;
+			remoteInfo = "Pods-VPNetworkManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047686A9487C1DB01E217F8B7D5A55F3 /* Pods-VPNetworkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNetworkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1FEA468EBDEE5BC3C5AE7DBD6DEA71FD /* VPNetworkManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPNetworkManager.xcconfig; sourceTree = "<group>"; };
+		21073891D4C0AF2A6D0B5FDBD0AC20B1 /* Pods-VPNetworkManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPNetworkManager_Example-resources.sh"; sourceTree = "<group>"; };
+		3452AA84135B48A0B46AEC55C8EF91FC /* Pods-VPNetworkManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPNetworkManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		3893CBFAEC5CCA9C47D95135D1206C84 /* Pods_VPNetworkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPNetworkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		396C43A51EDD55E42EDF792F83C23C69 /* Pods-VPNetworkManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPNetworkManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		49A281C477E6648902CE643C3D0A3F97 /* Pods-VPNetworkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNetworkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F631A09815584D2507C43B0709D550C /* Pods_VPNetworkManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPNetworkManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60835BD1C59FF637ADE9913F096D076B /* Pods-VPNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		63D96D00EE307147CAF1184D84296006 /* Pods-VPNetworkManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPNetworkManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		64DD5B8CE0961D423152FF90A91E52E9 /* VPNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VPNetworkManager.podspec; sourceTree = "<group>"; };
+		842E9BCB220880DD00494480 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		842E9BCC220880DE00494480 /* DownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		842E9BCD220880DE00494480 /* SynchronizedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedArray.swift; sourceTree = "<group>"; };
+		86DE939AF97D248C0F873DE246C905F7 /* VPNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPNetworkManager.modulemap; sourceTree = "<group>"; };
+		8C4FE4C9DDBE1FE25E08F52BFED32FEA /* Pods-VPNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F7937190D7866F40D47F339E4EB1C37 /* VPNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPNetworkManager-umbrella.h"; sourceTree = "<group>"; };
+		92661E4EED8C56CD5C260A8D0A4A87C4 /* VPNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPNetworkManager-dummy.m"; sourceTree = "<group>"; };
+		92B463FEBFB450294AA4068FD0A13B56 /* VPNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPNetworkManager-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956C09EA0A615C95C8528824B7F301F3 /* Pods-VPNetworkManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPNetworkManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		956F9DFD344B05421C466C467DBEBE71 /* Pods-VPNetworkManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VPNetworkManager_Tests.modulemap"; sourceTree = "<group>"; };
+		9979BF39A97536F723A6ADC2400083ED /* Pods-VPNetworkManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPNetworkManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9F1F889DFCB978647DDF3FAE93F42BEF /* VPNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VPNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1861872D577FC280C6A338E7BF0EF92 /* Pods-VPNetworkManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPNetworkManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C03177B98CC536C6491E44AA2B4F1152 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C8D792476628C98B98C73BA3A2CB16 /* Pods-VPNetworkManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPNetworkManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1306F394FE1C9B6BC31B418A682E00B /* Pods-VPNetworkManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNetworkManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D494E2A84AD9301F6158D3E9529E0687 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4A7D1C070E10834CB5DD8898705D326 /* Pods-VPNetworkManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPNetworkManager_Example-dummy.m"; sourceTree = "<group>"; };
+		D6CF5CCA6DAC1EAF2C583710497D828C /* Pods-VPNetworkManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VPNetworkManager_Example.modulemap"; sourceTree = "<group>"; };
+		D96A74A1575358834A3FA11B7CFDF6FC /* Pods-VPNetworkManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPNetworkManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E3CCFEC9D0C56DD20C2479EC012050E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E5153CCD5FAF171D0EB70D0FACBB4520 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDC029F126F5AA7D7B5083665358772 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AAC2607C46798DA9E6EF57BFDA754C /* Pods-VPNetworkManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPNetworkManager_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0429F02441A3795B5553AD8969AD4B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69853EFF3722F23A504F51181986E201 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBABBA280428749A51428D90508641F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABFA5F13835076D9073C51A0287852D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8320B02CFD2582A6BC1D00EB0EF9284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440C584F18333B43A99D65F04BEE8E02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2968E5EF3CDFC1AEFF11129FAC1A88BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94116274C19565951446A78CA13D8946 /* Pods-VPNetworkManager_Example */,
+				484DB806B1B222CD6049D6CB781FE4CA /* Pods-VPNetworkManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DD4CE0C595AD3E4C42486784C5330D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3893CBFAEC5CCA9C47D95135D1206C84 /* Pods_VPNetworkManager_Example.framework */,
+				4F631A09815584D2507C43B0709D550C /* Pods_VPNetworkManager_Tests.framework */,
+				9F1F889DFCB978647DDF3FAE93F42BEF /* VPNetworkManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484DB806B1B222CD6049D6CB781FE4CA /* Pods-VPNetworkManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C03177B98CC536C6491E44AA2B4F1152 /* Info.plist */,
+				956F9DFD344B05421C466C467DBEBE71 /* Pods-VPNetworkManager_Tests.modulemap */,
+				B1861872D577FC280C6A338E7BF0EF92 /* Pods-VPNetworkManager_Tests-acknowledgements.markdown */,
+				C9C8D792476628C98B98C73BA3A2CB16 /* Pods-VPNetworkManager_Tests-acknowledgements.plist */,
+				F6AAC2607C46798DA9E6EF57BFDA754C /* Pods-VPNetworkManager_Tests-dummy.m */,
+				D96A74A1575358834A3FA11B7CFDF6FC /* Pods-VPNetworkManager_Tests-frameworks.sh */,
+				3452AA84135B48A0B46AEC55C8EF91FC /* Pods-VPNetworkManager_Tests-resources.sh */,
+				9979BF39A97536F723A6ADC2400083ED /* Pods-VPNetworkManager_Tests-umbrella.h */,
+				49A281C477E6648902CE643C3D0A3F97 /* Pods-VPNetworkManager_Tests.debug.xcconfig */,
+				60835BD1C59FF637ADE9913F096D076B /* Pods-VPNetworkManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-VPNetworkManager_Tests";
+			path = "Target Support Files/Pods-VPNetworkManager_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EC62CF3751235B0F7DEEF0E0AAD6569E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3DD4CE0C595AD3E4C42486784C5330D7 /* Products */,
+				2968E5EF3CDFC1AEFF11129FAC1A88BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94116274C19565951446A78CA13D8946 /* Pods-VPNetworkManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EBDC029F126F5AA7D7B5083665358772 /* Info.plist */,
+				D6CF5CCA6DAC1EAF2C583710497D828C /* Pods-VPNetworkManager_Example.modulemap */,
+				8C4FE4C9DDBE1FE25E08F52BFED32FEA /* Pods-VPNetworkManager_Example-acknowledgements.markdown */,
+				63D96D00EE307147CAF1184D84296006 /* Pods-VPNetworkManager_Example-acknowledgements.plist */,
+				D4A7D1C070E10834CB5DD8898705D326 /* Pods-VPNetworkManager_Example-dummy.m */,
+				956C09EA0A615C95C8528824B7F301F3 /* Pods-VPNetworkManager_Example-frameworks.sh */,
+				21073891D4C0AF2A6D0B5FDBD0AC20B1 /* Pods-VPNetworkManager_Example-resources.sh */,
+				396C43A51EDD55E42EDF792F83C23C69 /* Pods-VPNetworkManager_Example-umbrella.h */,
+				D1306F394FE1C9B6BC31B418A682E00B /* Pods-VPNetworkManager_Example.debug.xcconfig */,
+				047686A9487C1DB01E217F8B7D5A55F3 /* Pods-VPNetworkManager_Example.release.xcconfig */,
+			);
+			name = "Pods-VPNetworkManager_Example";
+			path = "Target Support Files/Pods-VPNetworkManager_Example";
+			sourceTree = "<group>";
+		};
+		A1B00D01E9819C62F1944F6692711FC3 /* VPNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				842E9BCC220880DE00494480 /* DownloadService.swift */,
+				842E9BCB220880DD00494480 /* NetworkService.swift */,
+				842E9BCD220880DE00494480 /* SynchronizedArray.swift */,
+				DC3F3764BDB27CA0055920F58D472502 /* Pod */,
+				F1001F54C60436A335909B87617B361B /* Support Files */,
+			);
+			name = VPNetworkManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC3F3764BDB27CA0055920F58D472502 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E3CCFEC9D0C56DD20C2479EC012050E1 /* LICENSE */,
+				D494E2A84AD9301F6158D3E9529E0687 /* README.md */,
+				64DD5B8CE0961D423152FF90A91E52E9 /* VPNetworkManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EC62CF3751235B0F7DEEF0E0AAD6569E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1B00D01E9819C62F1944F6692711FC3 /* VPNetworkManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F1001F54C60436A335909B87617B361B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5153CCD5FAF171D0EB70D0FACBB4520 /* Info.plist */,
+				86DE939AF97D248C0F873DE246C905F7 /* VPNetworkManager.modulemap */,
+				1FEA468EBDEE5BC3C5AE7DBD6DEA71FD /* VPNetworkManager.xcconfig */,
+				92661E4EED8C56CD5C260A8D0A4A87C4 /* VPNetworkManager-dummy.m */,
+				92B463FEBFB450294AA4068FD0A13B56 /* VPNetworkManager-prefix.pch */,
+				8F7937190D7866F40D47F339E4EB1C37 /* VPNetworkManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VPNetworkManager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36D57AAEB7FCD6841A3433FAE487CB4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2974A0A438B1DF6D3FDB3EEA79A08BBF /* VPNetworkManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465EEE7E5F538A0ED3854EF51A02C5B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34636F0A47AFDD06A660FD25908211CC /* Pods-VPNetworkManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95573BE910F5ED4C395C9891BE84E6F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DB104AD616A2C85111AF1A34AB0B29 /* Pods-VPNetworkManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10BFB43C9F1660A9F23953339840CA17 /* VPNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90D6189DEBE412BB366A77210EDB1C4 /* Build configuration list for PBXNativeTarget "VPNetworkManager" */;
+			buildPhases = (
+				36D57AAEB7FCD6841A3433FAE487CB4A /* Headers */,
+				006C8857340B24E670AFD3BD5F25303F /* Sources */,
+				0429F02441A3795B5553AD8969AD4B16 /* Frameworks */,
+				118985CE7136B7C09538C5613712D99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPNetworkManager;
+			productName = VPNetworkManager;
+			productReference = 9F1F889DFCB978647DDF3FAE93F42BEF /* VPNetworkManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20B0511A9F7C4D4DAE8DE3D32B085F65 /* Pods-VPNetworkManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B47A31F219AB92E9550216D1336151B /* Build configuration list for PBXNativeTarget "Pods-VPNetworkManager_Tests" */;
+			buildPhases = (
+				95573BE910F5ED4C395C9891BE84E6F2 /* Headers */,
+				EF722BA0AC09E6FD71FA677C29759A85 /* Sources */,
+				A8320B02CFD2582A6BC1D00EB0EF9284 /* Frameworks */,
+				75B9A86D9B74F15065D81A691E883642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5270920F9573BCC7B1A2E39220349003 /* PBXTargetDependency */,
+			);
+			name = "Pods-VPNetworkManager_Tests";
+			productName = "Pods-VPNetworkManager_Tests";
+			productReference = 4F631A09815584D2507C43B0709D550C /* Pods_VPNetworkManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F11AF6DE0384C23905204E47F1F31E0F /* Pods-VPNetworkManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02719E2AFC9642BD08D33C8A953D37A2 /* Build configuration list for PBXNativeTarget "Pods-VPNetworkManager_Example" */;
+			buildPhases = (
+				465EEE7E5F538A0ED3854EF51A02C5B8 /* Headers */,
+				D2AA86EB714162F06FE6C8D8DE87B303 /* Sources */,
+				8BBABBA280428749A51428D90508641F /* Frameworks */,
+				7A2678C2C03A1408B154B4A26178074D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29326143C2261A13E72DF77520194263 /* PBXTargetDependency */,
+			);
+			name = "Pods-VPNetworkManager_Example";
+			productName = "Pods-VPNetworkManager_Example";
+			productReference = 3893CBFAEC5CCA9C47D95135D1206C84 /* Pods_VPNetworkManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3DD4CE0C595AD3E4C42486784C5330D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11AF6DE0384C23905204E47F1F31E0F /* Pods-VPNetworkManager_Example */,
+				20B0511A9F7C4D4DAE8DE3D32B085F65 /* Pods-VPNetworkManager_Tests */,
+				10BFB43C9F1660A9F23953339840CA17 /* VPNetworkManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118985CE7136B7C09538C5613712D99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B9A86D9B74F15065D81A691E883642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2678C2C03A1408B154B4A26178074D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006C8857340B24E670AFD3BD5F25303F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842E9BCF220880DE00494480 /* DownloadService.swift in Sources */,
+				842E9BCE220880DE00494480 /* NetworkService.swift in Sources */,
+				483C9099AB632C74102E74F5D418507E /* VPNetworkManager-dummy.m in Sources */,
+				842E9BD0220880DE00494480 /* SynchronizedArray.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AA86EB714162F06FE6C8D8DE87B303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B332774D8EE4623609241EEB87EBFF /* Pods-VPNetworkManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF722BA0AC09E6FD71FA677C29759A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E6268621669694BAF41A1A78D7D463 /* Pods-VPNetworkManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29326143C2261A13E72DF77520194263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VPNetworkManager;
+			target = 10BFB43C9F1660A9F23953339840CA17 /* VPNetworkManager */;
+			targetProxy = 616612F49873E9470AD2AA063DE1ED0C /* PBXContainerItemProxy */;
+		};
+		5270920F9573BCC7B1A2E39220349003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VPNetworkManager_Example";
+			target = F11AF6DE0384C23905204E47F1F31E0F /* Pods-VPNetworkManager_Example */;
+			targetProxy = E8ED09D8BF965E32A3CAD7B0CAB81D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		78501F8368C7F3F23A06D81FB9414F24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047686A9487C1DB01E217F8B7D5A55F3 /* Pods-VPNetworkManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VPNetworkManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPNetworkManager_Example/Pods-VPNetworkManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89043ABEC7B60093CACEA360C1E306C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEA468EBDEE5BC3C5AE7DBD6DEA71FD /* VPNetworkManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VPNetworkManager/VPNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPNetworkManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPNetworkManager/VPNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = VPNetworkManager;
+				PRODUCT_NAME = VPNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B25E040B1B874A030F2AE217E490924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60835BD1C59FF637ADE9913F096D076B /* Pods-VPNetworkManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VPNetworkManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPNetworkManager_Tests/Pods-VPNetworkManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DABD12F74D9E0164B71645EF32BA112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A281C477E6648902CE643C3D0A3F97 /* Pods-VPNetworkManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VPNetworkManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPNetworkManager_Tests/Pods-VPNetworkManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7BCBACAA9E8D09BA7404DE2411A7A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1306F394FE1C9B6BC31B418A682E00B /* Pods-VPNetworkManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VPNetworkManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VPNetworkManager_Example/Pods-VPNetworkManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE537633739E92C18B931F002EEDF3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEA468EBDEE5BC3C5AE7DBD6DEA71FD /* VPNetworkManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VPNetworkManager/VPNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPNetworkManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPNetworkManager/VPNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = VPNetworkManager;
+				PRODUCT_NAME = VPNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02719E2AFC9642BD08D33C8A953D37A2 /* Build configuration list for PBXNativeTarget "Pods-VPNetworkManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BCBACAA9E8D09BA7404DE2411A7A11 /* Debug */,
+				78501F8368C7F3F23A06D81FB9414F24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B47A31F219AB92E9550216D1336151B /* Build configuration list for PBXNativeTarget "Pods-VPNetworkManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABD12F74D9E0164B71645EF32BA112C /* Debug */,
+				9B25E040B1B874A030F2AE217E490924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90D6189DEBE412BB366A77210EDB1C4 /* Build configuration list for PBXNativeTarget "VPNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE537633739E92C18B931F002EEDF3BE /* Debug */,
+				89043ABEC7B60093CACEA360C1E306C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

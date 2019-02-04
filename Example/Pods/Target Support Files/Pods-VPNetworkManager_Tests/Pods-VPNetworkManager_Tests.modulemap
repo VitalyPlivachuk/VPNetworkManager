@@ -1,0 +1,6 @@
+framework module Pods_VPNetworkManager_Tests {
+  umbrella header "Pods-VPNetworkManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

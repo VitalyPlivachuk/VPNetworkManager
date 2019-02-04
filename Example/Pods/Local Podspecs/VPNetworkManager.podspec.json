@@ -1,0 +1,22 @@
+{
+  "name": "VPNetworkManager",
+  "version": "0.1.0",
+  "summary": "A short description of VPNetworkManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Volt/VPNetworkManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Volt": "volt@inernetbs.net"
+  },
+  "source": {
+    "git": "https://github.com/Volt/VPNetworkManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VPNetworkManager/Classes/**/*"
+}

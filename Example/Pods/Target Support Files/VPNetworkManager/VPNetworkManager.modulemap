@@ -1,0 +1,6 @@
+framework module VPNetworkManager {
+  umbrella header "VPNetworkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
