@@ -13,9 +13,10 @@
 		440C584F18333B43A99D65F04BEE8E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		483C9099AB632C74102E74F5D418507E /* VPNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92661E4EED8C56CD5C260A8D0A4A87C4 /* VPNetworkManager-dummy.m */; };
 		69853EFF3722F23A504F51181986E201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		842E9BCE220880DE00494480 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BCB220880DD00494480 /* NetworkService.swift */; };
-		842E9BCF220880DE00494480 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BCC220880DE00494480 /* DownloadService.swift */; };
-		842E9BD0220880DE00494480 /* SynchronizedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BCD220880DE00494480 /* SynchronizedArray.swift */; };
+		842E9BD6220885CC00494480 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 842E9BD2220885CC00494480 /* .gitkeep */; };
+		842E9BD7220885CC00494480 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BD3220885CC00494480 /* NetworkService.swift */; };
+		842E9BD8220885CC00494480 /* SynchronizedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BD4220885CC00494480 /* SynchronizedArray.swift */; };
+		842E9BD9220885CC00494480 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E9BD5220885CC00494480 /* DownloadService.swift */; };
 		9ABFA5F13835076D9073C51A0287852D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		B6B332774D8EE4623609241EEB87EBFF /* Pods-VPNetworkManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A7D1C070E10834CB5DD8898705D326 /* Pods-VPNetworkManager_Example-dummy.m */; };
 		C8DB104AD616A2C85111AF1A34AB0B29 /* Pods-VPNetworkManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9979BF39A97536F723A6ADC2400083ED /* Pods-VPNetworkManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,9 +52,10 @@
 		60835BD1C59FF637ADE9913F096D076B /* Pods-VPNetworkManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPNetworkManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		63D96D00EE307147CAF1184D84296006 /* Pods-VPNetworkManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPNetworkManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		64DD5B8CE0961D423152FF90A91E52E9 /* VPNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VPNetworkManager.podspec; sourceTree = "<group>"; };
-		842E9BCB220880DD00494480 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		842E9BCC220880DE00494480 /* DownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
-		842E9BCD220880DE00494480 /* SynchronizedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedArray.swift; sourceTree = "<group>"; };
+		842E9BD2220885CC00494480 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		842E9BD3220885CC00494480 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		842E9BD4220885CC00494480 /* SynchronizedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedArray.swift; sourceTree = "<group>"; };
+		842E9BD5220885CC00494480 /* DownloadService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 		86DE939AF97D248C0F873DE246C905F7 /* VPNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPNetworkManager.modulemap; sourceTree = "<group>"; };
 		8C4FE4C9DDBE1FE25E08F52BFED32FEA /* Pods-VPNetworkManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPNetworkManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F7937190D7866F40D47F339E4EB1C37 /* VPNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPNetworkManager-umbrella.h"; sourceTree = "<group>"; };
@@ -162,6 +164,18 @@
 			);
 			sourceTree = "<group>";
 		};
+		842E9BD1220885CC00494480 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				842E9BD2220885CC00494480 /* .gitkeep */,
+				842E9BD3220885CC00494480 /* NetworkService.swift */,
+				842E9BD4220885CC00494480 /* SynchronizedArray.swift */,
+				842E9BD5220885CC00494480 /* DownloadService.swift */,
+			);
+			name = Classes;
+			path = VPNetworkManager/Classes;
+			sourceTree = "<group>";
+		};
 		94116274C19565951446A78CA13D8946 /* Pods-VPNetworkManager_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,9 +197,7 @@
 		A1B00D01E9819C62F1944F6692711FC3 /* VPNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				842E9BCC220880DE00494480 /* DownloadService.swift */,
-				842E9BCB220880DD00494480 /* NetworkService.swift */,
-				842E9BCD220880DE00494480 /* SynchronizedArray.swift */,
+				842E9BD1220885CC00494480 /* Classes */,
 				DC3F3764BDB27CA0055920F58D472502 /* Pod */,
 				F1001F54C60436A335909B87617B361B /* Support Files */,
 			);
@@ -352,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842E9BD6220885CC00494480 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842E9BCF220880DE00494480 /* DownloadService.swift in Sources */,
-				842E9BCE220880DE00494480 /* NetworkService.swift in Sources */,
+				842E9BD7220885CC00494480 /* NetworkService.swift in Sources */,
+				842E9BD9220885CC00494480 /* DownloadService.swift in Sources */,
+				842E9BD8220885CC00494480 /* SynchronizedArray.swift in Sources */,
 				483C9099AB632C74102E74F5D418507E /* VPNetworkManager-dummy.m in Sources */,
-				842E9BD0220880DE00494480 /* SynchronizedArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
